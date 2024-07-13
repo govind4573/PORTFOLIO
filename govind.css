@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 2, 31);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 79);
+    padding: 0 50px;
+}
+
+nav .left {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li:hover a {
+    color: rgb(104, 104, 234);
+}
+
+main hr {
+    border: 0;
+    background: rgb(163, 144, 231);
+    height: 2px;
+    margin: 50px 80px;
+}
+
+.firstsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.firstsection .leftsection {
+    font-size: 2rem;
+}
+
+.leftsection .btn {
+    background: rgb(25, 22, 117);
+    padding: 15px 30px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.leftsection .buttons {
+    padding: 20px 0;
+}
+
+.rightsection img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10%;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondrightsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.secondrightsection img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.projectcontainer {
+    text-align: center;
+}
+
+.project {
+    max-width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.project h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5%;
+}
+
+.contactsection {
+    background-color: rgb(18, 18, 79);
+    color: white;
+    padding: 50px 20px;
+    text-align: center; /* Center align text within the section */
+}
+
+.contactsection h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contactsection p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contactsection .contact-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.contactsection .contact-links a:hover {
+    color: rgb(163, 144, 231);
+}
+
+footer {
+    background-color: #1d1d4a;
+    padding: 20px;
+}
+
+.footer-rights {
+    font-size: 1rem;
+    color: rgb(157, 153, 153);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
